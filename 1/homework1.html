@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>1st JS homework</title>
+		<link rel="stylesheet" type="text/css" href="homework1.css" />
+		<script defer src="homework1.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<label>1. JS zadaća</label>
+			<textarea
+				id="textarea"
+				placeholder="Ovdje upišite bilo koji broj rečenica. Kliknite na 'Razbij!' i saznajte nešto o njima!"
+				name="textarea"
+				rows="10"
+				cols="50"
+			></textarea>
+			<input type="submit" value="Razbij!" onclick="razbijRecenice(event)" />
+			<div id="charNumber" class="result"></div>
+			<div id="sentencesNumber" class="result"></div>
+		</div>
+	</body>
+</html>
