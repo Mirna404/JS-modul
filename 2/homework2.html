@@ -4,7 +4,51 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>2nd JS homework</title>
+		<link rel="stylesheet" type="text/css" href="homework2.css" />
+		<script defer src="homework2.js"></script>
 	</head>
-	<body></body>
+	<body>
+		<header>Utrka 2 automobila</header>
+		<h2>Pojedinosti o automobilima</h2>
+		<section class="about-cars">
+			<form class="wrapper">
+				<h3>Prvi automobil</h3>
+				<label>Ime auta</label>
+				<input type="text" id="nickname1" name="nickname1" />
+				<label>Boja</label>
+				<select name="colors" id="colors">
+					<option value="volvo">Žuta</option>
+					<option value="saab">Crvena</option>
+					<option value="opel">Crna</option>
+					<option value="audi">Siva</option>
+				</select>
+				<label>Brzina u km/h</label>
+				<input type="number" id="speed1" name="speed1" />
+			</form>
+			<form class="wrapper">
+				<h3>Drugi automobil</h3>
+				<label>Ime auta</label>
+				<input type="text" id="nickname2" name="nickname2" />
+				<label>Boja</label>
+				<select name="colors" id="colors">
+					<option value="volvo">Žuta</option>
+					<option value="saab">Crvena</option>
+					<option value="opel">Crna</option>
+					<option value="audi">Siva</option>
+				</select>
+				<label>Brzina u km/h</label>
+				<input type="number" id="speed2" name="speed2" />
+			</form>
+		</section>
+		<h2>Utrka</h2>
+		<section class="race">
+			<form class="wrapper">
+				<label>Unesite željenu udaljenost u kilometrima</label>
+				<input type="number" id="distance" name="distance" />
+				<input type="submit" value="START" onclick="tkoJeBrzi(event)" />
+			</form>
+		</section>
+		<div id="results" class="results"></div>
+	</body>
 </html>
