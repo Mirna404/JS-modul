@@ -1,12 +1,12 @@
 const prviAuto = {
 	ime: document.getElementById("nickname1"),
-	brzina: (brzina1 = document.getElementById("speed1")),
+	brzina: document.getElementById("speed1"),
 	udaljenost: document.getElementById("distance"),
 };
 
 const drugiAuto = {
 	ime: document.getElementById("nickname2"),
-	brzina: (brzina1 = document.getElementById("speed2")),
+	brzina: document.getElementById("speed2"),
 	udaljenost: document.getElementById("distance"),
 };
 
